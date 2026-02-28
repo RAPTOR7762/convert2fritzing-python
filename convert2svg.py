@@ -1,18 +1,9 @@
 import tkinter as tk
 from tkinter import filedialog
 
-
-def convert_brd():
-    print("BRD selected")
-
-
-def convert_lbr():
-    print("LBR selected")
-
-
-def convert_kicad():
-    print("KiCad PCB selected")
-
+from lxml import etree
+import svgwrite
+import sexpdata
 
 root = tk.Tk()
 root.title("Convert2Fritzing")
@@ -31,13 +22,13 @@ label.pack(pady=10)
 button_frame = tk.Frame(frame)
 button_frame.pack()
 
-btn1 = tk.Button(button_frame, text="Convert BRD", command=convert_brd)
+btn1 = tk.Button(button_frame, text="Convert BRD", command=brd2svg)
 btn1.pack(side="left", padx=8)
 
-btn2 = tk.Button(button_frame, text="Convert LBR", command=convert_lbr)
+btn2 = tk.Button(button_frame, text="Convert LBR", command=lbr2fzpz)
 btn2.pack(side="left", padx=8)
 
-btn3 = tk.Button(button_frame, text="Convert KiCAD_PCB", command=convert_kicad)
+btn3 = tk.Button(button_frame, text="Convert KiCAD_PCB", command=kicad_pcb2svg)
 btn3.pack(side="left", padx=8)
 
 root.mainloop()
