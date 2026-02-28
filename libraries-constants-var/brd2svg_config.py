@@ -53,3 +53,9 @@ def tkinter_gui():
     win.mainloop()
 
     return result["filename"]
+
+def tkinter_warn(msg, title="Warning"):
+    root = tk.Tk()
+    root.withdraw()  # hide the main window
+    messagebox.showwarning(title, msg)
+    root.destroy()
