@@ -1,5 +1,7 @@
 from lxml import etree
 
+from brd2svg_config import *
+
 filename = ""
 
 def brd2svg():
