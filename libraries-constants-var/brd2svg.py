@@ -8,6 +8,7 @@ from brd2svg_config import *
 filename = ""
 
 def brd2svg():
+  global filename
   filename = tkinter_gui()
 
 if __name__ == "__main__":
