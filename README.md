@@ -1,5 +1,6 @@
 ![License](https://img.shields.io/github/license/RAPTOR7762/eagle2fritzing-python)
-![PyPi](https://img.shields.io/badge/version-v0.0.1a-blue)
+![Version](https://img.shields.io/badge/version-v0.0.1a-blue)
+![PyPi](https://img.shields.io/badge/PyPi-lxml,%20svgwrite,%20sexpdata-green)
 
 # convert2fritzing-python
 
@@ -12,6 +13,7 @@ My version of the tool uses the Python `lxml` and `sexpdata` library, so be sure
 ```bash
 pip install lxml
 pip install sexpdata
+pip install svgwrite
 ```
 
 ## Contribute
