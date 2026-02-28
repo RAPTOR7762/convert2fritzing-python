@@ -11,7 +11,7 @@ My version of the tool uses the Python `lxml` and `sexpdata` library, so be sure
 
 ```bash
 pip install lxml
-pip install sepxpdata
+pip install sexpdata
 ```
 
 ## Contribute
