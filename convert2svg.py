@@ -5,6 +5,9 @@ from lxml import etree
 import svgwrite
 import sexpdata
 
+from libraries-constants-var.brd2svg import brd2svg
+from libraries-constants-var.lbr2fzpz import lbr2fzpz
+
 root = tk.Tk()
 root.title("Convert2Fritzing")
 
