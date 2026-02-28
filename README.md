@@ -7,10 +7,11 @@ This is a Python alternative to the [original eagle2fritzing](https://github.com
 
 Additionally, the code requires <Qt 6.5.3, so in the long run, if the [Fritzing](https://fritzing.org) devs don't maintain it, the code will be outdated and unusable. Additionally, Eagle is phasing out in June 2026, so the original code has to be changed.
 
-My version of the tool uses the Python `lxml` library, so be sure to do
+My version of the tool uses the Python `lxml` and `sexpdata` library, so be sure to do
 
 ```bash
 pip install lxml
+pip install sepxpdata
 ```
 
 ## Contribute
