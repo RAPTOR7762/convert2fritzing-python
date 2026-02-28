@@ -60,3 +60,6 @@ def tkinter_warn(msg, title="Warning"):
     root.withdraw()  # hide the main window
     messagebox.showwarning(title, msg)
     root.destroy()
+
+def get_scaling(filename):
+    global tree, root
