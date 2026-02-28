@@ -2,6 +2,7 @@ from lxml import etree
 import svgwrite
 import tkinter as tk
 from tkinter import ttk
+from tkinter import messagebox
 
 def tkinter_gui():
     """Open a small window to input a .brd filename and return it."""
