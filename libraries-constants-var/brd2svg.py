@@ -11,5 +11,10 @@ def brd2svg():
   global filename
   filename = tkinter_gui()
 
+  tree = etree.parse(filename)
+  root = tree.getroot()
+
+  brd_scaling = get_scaling()
+
 if __name__ == "__main__":
   tkinter_warn("This python script is not meant to be run!")
