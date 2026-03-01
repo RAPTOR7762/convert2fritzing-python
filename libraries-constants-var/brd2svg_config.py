@@ -56,10 +56,10 @@ def tkinter_gui():
     return result["filename"]
 
 def tkinter_warn(msg, title="Warning"):
-    root = tk.Tk()
-    root.withdraw()  # hide the main window
+    msg = tk.Tk()
+    mag.withdraw()  # hide the main window
     messagebox.showwarning(title, msg)
-    root.destroy()
+    msg.destroy()
 
 def get_scaling(filename):
     global tree, root
